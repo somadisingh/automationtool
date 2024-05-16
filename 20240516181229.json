@@ -3,10 +3,10 @@
         "header": {
             "headerRow": {
                 "originatorCode": "NILE-OAK",
-                "shipmentReferenceNumber": "QAPE130520241532",
-                "shipmentReferenceMasterWayBill": "MWB130520241532",
-                "shipmentReferenceHouseWayBill": "HWB130520241532",
-                "shipmentReferenceBillOfLadding": "MEDUEX432325",
+                "shipmentReferenceNumber": "QAPE180420241025",
+                "shipmentReferenceMasterWayBill": "MWB180420241025",
+                "shipmentReferenceHouseWayBill": "HWB180420241025",
+                "shipmentReferenceBillOfLadding": "MAEU720014840",
                 "shipmentINCOterm": "FOB",
                 "paymentMethodIndicator": "COLLECT",
                 "freightLineItemGrossWeight": "9340.000",
@@ -26,7 +26,7 @@
             {
                 "equipmentRow": {
                     "shipmentEquipmentCode": "45G0",
-                    "shipmentEquipmentNumber": "MSDU8945976",
+                    "shipmentEquipmentNumber": "MRKU4568034",
                     "shipmentEquipmentFreightDescription": "Total Terminal",
                     "shipmentEquipmentGrossWeight": "13051.000",
                     "shipmentEquipmentPieces": "1232",
@@ -45,8 +45,8 @@
                     "modeofTransportation": "OCEAN",
                     "portOfLoading": "CNQDG",
                     "portOfDischarge": "USLGB",
-                    "requestedPickupDate": "20240411",
-                    "requestedPickupTime": "21:00:00",
+                    "requestedPickupDate": "20240401",
+                    "requestedPickupTime": "00:00:00",
                     "voyageFlightNo": "410N",
                     "shipmentFromUnlocode": "CNQDG",
                     "shipmentToUnlocode": "USLGB",
@@ -57,12 +57,22 @@
             },
             {
                 "shipmentLegsRow": {
+                    "carrierName": "MAEU",
+                    "modeofTransportation": "RAIL",
+                    "requestedDeliveryDate": "20240416",
+                    "requestedDeliveryTime": "19:08:00",
+                    "shipmentFromUnlocode": "USLGB",
+                    "shipmentToUnlocode": "USJOT"
+                }
+            },
+            {
+                "shipmentLegsRow": {
                     "carrierName": "NMC1-OAK",
                     "portOfLoading": "null",
                     "portOfDischarge": "null",
                     "modeofTransportation": "DRAY",
-                    "requestedPickupDate": "20240512",
-                    "requestedPickupTime": "00:00:00",
+                    "requestedPickupDate": "20240423",
+                    "requestedPickupTime": "03:00:00",
                     "shipmentFromUnlocode": "USJOT",
                     "shipmentToUnlocode": "USPNO",
                     "licencePlateNumber": "LPN1"

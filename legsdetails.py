@@ -96,7 +96,7 @@ dray = {
 
 
 if __name__ == '__main__':
-    img_path = 'legtesting.png'
+    img_path = 'legtest2.png'
     text, result, img = imgtotxt(img_path)
     distances = []
     padding = 6
@@ -158,6 +158,17 @@ if __name__ == '__main__':
     keys_to_remove = [key for key in leg_dict.keys() if 'Planned' not in key]
     for key in keys_to_remove:
         leg_dict.pop(key)
+
+    # if there is no gap after first 11 characters, add a space
+    new_leg_dict = {}
+    for key in leg_dict.keys():
+        if key[11] != ' ':
+            new_key = key[:11] + ' ' + key[11:]
+        else:
+            new_key = key
+        new_leg_dict[new_key] = leg_dict[key]
+
+    leg_dict = new_leg_dict
 
     sorted_keys = sorted(leg_dict.keys(), key=lambda date: datetime.strptime(date.split(' ')[0], '%d-%b-%Y'))
     # replace the keys in leg_dict with sorted keys
@@ -240,4 +251,5 @@ if __name__ == '__main__':
     jsonname = datetime.now().strftime("%Y%m%d%H%M%S") + '.json'
     with open(jsonname, 'w') as f:
         json.dump(json_dict, f, indent=4)
+    print(f"JSON file {jsonname} created successfully")
     

@@ -126,7 +126,7 @@ def imgtotxt(img_path): # function to extract text from image
 
 
 if __name__ == '__main__':
-    img_path = 'reftesting1.png'
+    img_path = 'minireftest2.png'
     text, result, img = imgtotxt(img_path)
     # Sort boxes by top left y coordinate
     result.sort(key=lambda bbox: bbox[0][0][1])
@@ -196,6 +196,7 @@ if __name__ == '__main__':
     json_dict['event']['header']['headerRow']['shipmentReferenceNumber'] = shipmentReferenceNumber
     json_dict['event']['header']['headerRow']['shipmentReferenceMasterWayBill'] = shipmentReferenceMasterWayBill
     json_dict['event']['header']['headerRow']['shipmentReferenceHouseWayBill'] = shipmentReferenceHouseWayBill
+    
     with open('pae_updated.json', 'w') as f:
         json.dump(json_dict, f, indent=4)
 
