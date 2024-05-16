@@ -1,0 +1,18 @@
+{
+    "ocean": {
+    "shipmentLegsRow": {
+        "carrierName": "MAEU", 
+        "modeofTransportation": "OCEAN",
+        "portOfLoading": "CNQDG",
+        "portOfDischarge": "USLGB",  
+        "requestedPickupDate": "20240306", 
+        "requestedPickupTime": "00:00:00", 
+        "voyageFlightNo": "410N",
+        "shipmentFromUnlocode": "CNQDG", 
+        "shipmentToUnlocode": "USLGB", 
+        "vesselName": "MAERSK SHIVLING", 
+        "destinationTransitStop": "True",
+        "isVisibilityOnly": "True"
+        }
+    }
+}
