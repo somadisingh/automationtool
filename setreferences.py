@@ -196,6 +196,8 @@ if __name__ == '__main__':
     json_dict['event']['header']['headerRow']['shipmentReferenceNumber'] = shipmentReferenceNumber
     json_dict['event']['header']['headerRow']['shipmentReferenceMasterWayBill'] = shipmentReferenceMasterWayBill
     json_dict['event']['header']['headerRow']['shipmentReferenceHouseWayBill'] = shipmentReferenceHouseWayBill
+    json_dict['event']['header']['headerRow']['cargoReadyDate'] = None
+    json_dict['event']['header']['headerRow']['cutOffDate'] = None
     
     with open('pae_updated.json', 'w') as f:
         json.dump(json_dict, f, indent=4)

@@ -83,8 +83,8 @@ rail = {
 dray = {
     "shipmentLegsRow": {
         "carrierName": "NMC1-OAK", #this
-        "portOfLoading": "null",
-        "portOfDischarge": "null",
+        "portOfLoading": None,
+        "portOfDischarge": None,
         "modeofTransportation": "DRAY",
         "requestedPickupDate": "20240406", 
         "requestedPickupTime": "00:00:00", 
