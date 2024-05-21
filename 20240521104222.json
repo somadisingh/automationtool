@@ -1,0 +1,203 @@
+{
+    "event": {
+        "header": {
+            "headerRow": {
+                "originatorCode": "NILE-OAK",
+                "shipmentReferenceNumber": "QAPE180420241025",
+                "shipmentReferenceMasterWayBill": "MWB180420241025",
+                "shipmentReferenceHouseWayBill": "HWB180420241025",
+                "shipmentReferenceBillOfLadding": "MAEU720014840",
+                "shipmentINCOterm": "FOB",
+                "paymentMethodIndicator": "COLLECT",
+                "freightLineItemGrossWeight": "9340.000",
+                "freightLineItemWeightUom": "KG",
+                "loadType": "FCL",
+                "purposeCode": "Create",
+                "shipmentReferenceOriginReference": "NILE",
+                "shipmentReferenceBookingNumber": "REF18042024",
+                "shipmentComments": "Long Beach Pier T Connectivty",
+                "serviceType": "CY/DR",
+                "shipperCode": "SZ10187566",
+                "cargoReadyDate": "20240304",
+                "cutOffDate": "20240304"
+            }
+        },
+        "equipment": [
+            {
+                "equipmentRow": {
+                    "shipmentEquipmentCode": "45G0",
+                    "shipmentEquipmentNumber": "MRKU4568034",
+                    "shipmentEquipmentFreightDescription": "Total Terminal",
+                    "shipmentEquipmentGrossWeight": "13051.000",
+                    "shipmentEquipmentPieces": "1232",
+                    "shipmentEquipmentSeal": "SZ180424",
+                    "shipmentEquipmentVolume": "60",
+                    "shipmentEquipmentVolumeMeasurement": "CM3",
+                    "shipmentEquipmentWeightMeasurement": "KG",
+                    "shipmentEquipmentPiecesMeasurement": "PIECES"
+                }
+            }
+        ],
+        "shipmentLegs": [
+            {
+                "shipmentLegsRow": {
+                    "carrierName": "MAEU",
+                    "modeofTransportation": "OCEAN",
+                    "portOfLoading": "CNQDG",
+                    "portOfDischarge": "USLGB",
+                    "requestedPickupDate": "20240522",
+                    "requestedPickupTime": "12:00:00",
+                    "voyageFlightNo": "410N",
+                    "shipmentFromUnlocode": "CNQDG",
+                    "shipmentToUnlocode": "USLGB",
+                    "vesselName": "MAERSK SHIVLING",
+                    "destinationTransitStop": "True",
+                    "isVisibilityOnly": "True"
+                }
+            },
+            {
+                "shipmentLegsRow": {
+                    "carrierName": "MAEU",
+                    "modeofTransportation": "RAIL",
+                    "requestedDeliveryDate": "20240709",
+                    "requestedDeliveryTime": "04:54:00",
+                    "shipmentFromUnlocode": "USLGB",
+                    "shipmentToUnlocode": "USJOT"
+                }
+            },
+            {
+                "shipmentLegsRow": {
+                    "carrierName": "NMC1-OAK",
+                    "portOfLoading": "null",
+                    "portOfDischarge": "null",
+                    "modeofTransportation": "DRAY",
+                    "requestedPickupDate": "20240727",
+                    "requestedPickupTime": "12:00:00",
+                    "shipmentFromUnlocode": "USJOT",
+                    "shipmentToUnlocode": "USPNO",
+                    "licencePlateNumber": "LPN1"
+                }
+            }
+        ],
+        "shipmentParties": [
+            {
+                "shipmentPartiesRow": {
+                    "type": "Ocean Carrier",
+                    "code": null,
+                    "name": "MAERSK",
+                    "locationId": null,
+                    "address1": null,
+                    "address2": null,
+                    "city": null,
+                    "state": null,
+                    "zip": null,
+                    "country": null
+                }
+            },
+            {
+                "shipmentPartiesRow": {
+                    "type": "Shipper",
+                    "code": "204556",
+                    "name": "MALGI PHOTOELECTRICITY APPLICANCE CO LTD",
+                    "locationId": null,
+                    "address1": "XIAOFENGTIAN, WUZHUANG, LUOCUN, SHISHAN",
+                    "address2": "NAN HAI,",
+                    "city": null,
+                    "state": null,
+                    "zip": null,
+                    "country": null
+                }
+            },
+            {
+                "shipmentPartiesRow": {
+                    "type": "Consignee",
+                    "code": "NILC",
+                    "name": "Nile Retailer Inc.",
+                    "locationId": null,
+                    "address1": "C/O TRANS EXPEDITE INC. (FTZ)",
+                    "address2": "9 FOUNDERS BLVD, DOOR 24",
+                    "city": null,
+                    "state": null,
+                    "zip": null,
+                    "country": null
+                }
+            },
+            {
+                "shipmentPartiesRow": {
+                    "type": "Ultimate Consignee",
+                    "code": "CTST",
+                    "name": "Test Customer Org",
+                    "locationId": null,
+                    "address1": "C/O TRANS EXPEDITE INC. (FTZ)",
+                    "address2": "9 FOUNDERS BLVD, DOOR 24",
+                    "city": null,
+                    "state": null,
+                    "zip": null,
+                    "country": null
+                }
+            },
+            {
+                "shipmentPartiesRow": {
+                    "type": "Importer",
+                    "code": "NILC",
+                    "name": "Nile Retailer Inc.",
+                    "locationId": null,
+                    "address1": "200 BALLARDVALE STREET",
+                    "address2": "WILMINGTON, MA 01887",
+                    "city": null,
+                    "state": null,
+                    "zip": null,
+                    "country": null
+                }
+            },
+            {
+                "shipmentPartiesRow": {
+                    "type": "Origin Office",
+                    "code": "ORIENT STAR TRANSPORT INTL, SHENZHEN",
+                    "name": "ORIENT STAR TRANSPORT (SHENZHEN) LTD",
+                    "locationId": null,
+                    "address1": null,
+                    "address2": null,
+                    "city": null,
+                    "state": null,
+                    "zip": null,
+                    "country": null
+                }
+            },
+            {
+                "shipmentPartiesRow": {
+                    "type": "Destination Office",
+                    "code": "OUSA-CHI",
+                    "name": "OL USA LLC",
+                    "locationId": null,
+                    "address1": null,
+                    "address2": null,
+                    "city": null,
+                    "state": null,
+                    "zip": null,
+                    "country": null
+                }
+            },
+            {
+                "shipmentPartiesRow": {
+                    "type": "Motor Carrier",
+                    "code": "10 Burma Rd, , CA 94607, Oakland, CA, 94607, US",
+                    "name": "Nile Motor Carrier01",
+                    "locationId": null,
+                    "address1": null,
+                    "address2": null,
+                    "city": null,
+                    "state": null,
+                    "zip": null,
+                    "country": null
+                }
+            }
+        ],
+        "eventDates": {
+            "eventDatesRow": {
+                "availableDate": "2024-02-25",
+                "bookingDate": "2024-02-25"
+            }
+        }
+    }
+}

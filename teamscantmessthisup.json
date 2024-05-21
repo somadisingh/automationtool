@@ -3,10 +3,10 @@
         "header": {
             "headerRow": {
                 "originatorCode": "NILE-OAK",
-                "shipmentReferenceNumber": "QAPE180420241025",
-                "shipmentReferenceMasterWayBill": "MWB180420241025",
-                "shipmentReferenceHouseWayBill": "HWB180420241025",
-                "shipmentReferenceBillOfLadding": "MAEU720014840",
+                "shipmentReferenceNumber": "QAPE210520241046",
+                "shipmentReferenceMasterWayBill": "MWB210520241046",
+                "shipmentReferenceHouseWayBill": "HWB210520241046",
+                "shipmentReferenceBillOfLadding": "CMDUSHZ6260043",
                 "shipmentINCOterm": "FOB",
                 "paymentMethodIndicator": "COLLECT",
                 "freightLineItemGrossWeight": "9340.000",
@@ -16,7 +16,7 @@
                 "shipmentReferenceOriginReference": "NILE",
                 "shipmentReferenceBookingNumber": "REF18042024",
                 "shipmentComments": "Long Beach Pier T Connectivty",
-                "serviceType": "CY/DR",
+                "serviceType": "Container Yard/Container Yard",
                 "shipperCode": "SZ10187566",
                 "cargoReadyDate": "20240304",
                 "cutOffDate": "20240304"
@@ -26,7 +26,7 @@
             {
                 "equipmentRow": {
                     "shipmentEquipmentCode": "45G0",
-                    "shipmentEquipmentNumber": "MRKU4568034",
+                    "shipmentEquipmentNumber": "CMAU2606440",
                     "shipmentEquipmentFreightDescription": "Total Terminal",
                     "shipmentEquipmentGrossWeight": "13051.000",
                     "shipmentEquipmentPieces": "1232",
@@ -41,12 +41,25 @@
         "shipmentLegs": [
             {
                 "shipmentLegsRow": {
-                    "carrierName": "MAEU",
+                    "carrierName": "DAMU",
+                    "portOfLoading": "null",
+                    "portOfDischarge": "null",
+                    "modeofTransportation": "DRAY",
+                    "requestedPickupDate": "20240522",
+                    "requestedPickupTime": "12:00:00",
+                    "shipmentFromUnlocode": "USJOT",
+                    "shipmentToUnlocode": "USPNO",
+                    "licencePlateNumber": "LPN1"
+                }
+            },
+            {
+                "shipmentLegsRow": {
+                    "carrierName": "CMDU",
                     "modeofTransportation": "OCEAN",
                     "portOfLoading": "CNQDG",
                     "portOfDischarge": "USLGB",
-                    "requestedPickupDate": "20240401",
-                    "requestedPickupTime": "00:00:00",
+                    "requestedPickupDate": "20240522",
+                    "requestedPickupTime": "12:00:00",
                     "voyageFlightNo": "410N",
                     "shipmentFromUnlocode": "CNQDG",
                     "shipmentToUnlocode": "USLGB",
@@ -57,22 +70,22 @@
             },
             {
                 "shipmentLegsRow": {
-                    "carrierName": "MAEU",
+                    "carrierName": "DAMU",
                     "modeofTransportation": "RAIL",
-                    "requestedDeliveryDate": "20240416",
-                    "requestedDeliveryTime": "19:08:00",
+                    "requestedDeliveryDate": "20240709",
+                    "requestedDeliveryTime": "04:54:00",
                     "shipmentFromUnlocode": "USLGB",
                     "shipmentToUnlocode": "USJOT"
                 }
             },
             {
                 "shipmentLegsRow": {
-                    "carrierName": "NMC1-OAK",
+                    "carrierName": "DAMU",
                     "portOfLoading": "null",
                     "portOfDischarge": "null",
                     "modeofTransportation": "DRAY",
-                    "requestedPickupDate": "20240423",
-                    "requestedPickupTime": "03:00:00",
+                    "requestedPickupDate": "20240727",
+                    "requestedPickupTime": "12:00:00",
                     "shipmentFromUnlocode": "USJOT",
                     "shipmentToUnlocode": "USPNO",
                     "licencePlateNumber": "LPN1"

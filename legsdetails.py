@@ -96,7 +96,7 @@ dray = {
 
 
 if __name__ == '__main__':
-    img_path = 'legtest2.png'
+    img_path = 'damu_legs.png'
     text, result, img = imgtotxt(img_path)
     distances = []
     padding = 6
@@ -253,3 +253,5 @@ if __name__ == '__main__':
         json.dump(json_dict, f, indent=4)
     print(f"JSON file {jsonname} created successfully")
     
+
+# TODO: unlocodes, carrier names, vessel names, and voyage numbers need to be extracted from the image

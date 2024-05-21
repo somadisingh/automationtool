@@ -126,7 +126,7 @@ def imgtotxt(img_path): # function to extract text from image
 
 
 if __name__ == '__main__':
-    img_path = 'minireftest2.png'
+    img_path = 'damu_info.png'
     text, result, img = imgtotxt(img_path)
     # Sort boxes by top left y coordinate
     result.sort(key=lambda bbox: bbox[0][0][1])
