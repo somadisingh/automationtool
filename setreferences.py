@@ -126,7 +126,7 @@ def imgtotxt(img_path): # function to extract text from image
 
 
 if __name__ == '__main__':
-    img_path = 'damu_info.png'
+    img_path = 'cargoquiktest.png'
     text, result, img = imgtotxt(img_path)
     # Sort boxes by top left y coordinate
     result.sort(key=lambda bbox: bbox[0][0][1])
@@ -157,7 +157,7 @@ if __name__ == '__main__':
     
     
     json_dict = {}
-    with open('pae_updated.json') as f:
+    with open('template.json') as f:
         json_dict = json.load(f)
 
     text_dict = {}
@@ -165,7 +165,8 @@ if __name__ == '__main__':
     crops = os.listdir('refcrops')
     for crop in tqdm.tqdm(crops):
         text, result, img = imgtotxt(f'refcrops/{crop}')
-        text_dict[text[0]] = text[1]
+        if len(text) > 1:
+            text_dict[text[0]] = text[1]
     
     shutil.rmtree('refcrops')
 
@@ -187,6 +188,10 @@ if __name__ == '__main__':
                 json_dict['event']['equipment'][0]['equipmentRow']['shipmentEquipmentNumber'] = text_dict['Container ID']
             elif key == 'Service Type':
                 json_dict['event']['header']['headerRow']['serviceType'] = text_dict['Service Type']
+            elif key == 'CutOff Date':
+                json_dict['event']['header']['headerRow']['cutOffDate'] = text_dict['CutOff Date']
+            elif key == 'Cargo Ready Date':
+                json_dict['event']['header']['headerRow']['cargoReadyDate'] = text_dict['Cargo Ready Date']
     
     now = datetime.datetime.now()
     date_time = now.strftime("%d%m%Y%H%M")
@@ -196,8 +201,8 @@ if __name__ == '__main__':
     json_dict['event']['header']['headerRow']['shipmentReferenceNumber'] = shipmentReferenceNumber
     json_dict['event']['header']['headerRow']['shipmentReferenceMasterWayBill'] = shipmentReferenceMasterWayBill
     json_dict['event']['header']['headerRow']['shipmentReferenceHouseWayBill'] = shipmentReferenceHouseWayBill
-    json_dict['event']['header']['headerRow']['cargoReadyDate'] = None
-    json_dict['event']['header']['headerRow']['cutOffDate'] = None
+    # json_dict['event']['header']['headerRow']['cargoReadyDate'] = None
+    # json_dict['event']['header']['headerRow']['cutOffDate'] = None
     
     with open('pae_updated.json', 'w') as f:
         json.dump(json_dict, f, indent=4)

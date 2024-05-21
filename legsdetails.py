@@ -123,7 +123,7 @@ if __name__ == '__main__':
                 crop = img[min_y:max_y, min_x:max_x]
                 cv2.imwrite(f'legcrops/crop_{i+1}_{j+1}.png', crop)
 
-    cv2.imwrite('test.png', img)
+    # cv2.imwrite('test.png', img)
     # print('Bounding boxes, coordinates, and distances drawn on the image and saved as legdets_output.png')
     # distances.sort(key=lambda x: x[1])
     # for distance in distances:

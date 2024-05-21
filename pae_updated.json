@@ -3,9 +3,9 @@
         "header": {
             "headerRow": {
                 "originatorCode": "NILE-OAK",
-                "shipmentReferenceNumber": "QAPE180420241025",
-                "shipmentReferenceMasterWayBill": "MWB180420241025",
-                "shipmentReferenceHouseWayBill": "HWB180420241025",
+                "shipmentReferenceNumber": "QAPE210520241339",
+                "shipmentReferenceMasterWayBill": "MWB210520241339",
+                "shipmentReferenceHouseWayBill": "HWB210520241339",
                 "shipmentReferenceBillOfLadding": "MAEU720014840",
                 "shipmentINCOterm": "FOB",
                 "paymentMethodIndicator": "COLLECT",
@@ -16,17 +16,17 @@
                 "shipmentReferenceOriginReference": "NILE",
                 "shipmentReferenceBookingNumber": "REF18042024",
                 "shipmentComments": "Long Beach Pier T Connectivty",
-                "serviceType": "CY/DR",
+                "serviceType": "Container Yard/Container Yard",
                 "shipperCode": "SZ10187566",
                 "cargoReadyDate": null,
-                "cutOffDate": null
+                "cutOffDate": "08-Jul-2024"
             }
         },
         "equipment": [
             {
                 "equipmentRow": {
                     "shipmentEquipmentCode": "45G0",
-                    "shipmentEquipmentNumber": "MRKU4568034",
+                    "shipmentEquipmentNumber": "CMAU2606440",
                     "shipmentEquipmentFreightDescription": "Total Terminal",
                     "shipmentEquipmentGrossWeight": "13051.000",
                     "shipmentEquipmentPieces": "1232",
@@ -38,7 +38,7 @@
                 }
             }
         ],
-        "shipmentLegs": [ ],
+        "shipmentLegs": [],
         "shipmentParties": [
             {
                 "shipmentPartiesRow": {
